@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@font-face {
+    font-family: mouse;
+    src: url(./Fuente/MouseMemoirs-Regular.ttf);
+}
+
+@font-face {
+    font-family: poiret;
+    src: url(./Fuente/PoiretOne-Regular.ttf);
+}
+
+body {
+    height: 1000vh;
+}
+
+.header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(circle at 61.71% 51.02%, #ff8e60 0, #ff7e6b 10%, #ff6e73 20%, #ff5d78 30%, #ff4c7a 40%, #f23c78 50%, #d52e74 60%, #ba2471 70%, #a21d6e 80%, #8d1a6c 90%, #7a1a6b 100%);
+    ;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: mouse;
+    box-shadow: 5px 17px 44px 2px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 5px 17px 44px 2px rgba(0,0,0,0.73);
+    -moz-box-shadow: 5px 17px 44px 2px rgba(0,0,0,0.73);
+     width: 240vh;
+}
+
+.logo {
+    height: 130%;
+}
+
+.titulo {
+    font-family: mouse;
+font-weight: 500;
+font-size: 60
+}
+    
+.lista {
+    list-style: none;
+    display: flex;
+}
+
+.lista li {
+    margin: 25px;
+}
+
+.a-item {
+    text-decoration: none;
+    color: black;
+}
+
+.boton {
+  color: rgb(7, 7, 7);
+padding: 10px 40px;
+background-color: rgb(221, 173, 173);
+border-color: black; 
+border-radius: 50px; 
+cursor: pointer;
+font-size: 20px;
+font-family: mouse;
+}
+
+.portada {
+width: 100%;
+height: 550px;
+background-color: #ff8d608e;
+display: flex;
+justify-content: center;
+}
+
+.texto-portada {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    font-family: poiret;
+    font-size: 30px;
+}
+
+.boton-portada {
+    margin-top: 0px;
+    border-radius: 20px;
+    padding: 12px;
+    border-color: #7a1a6b
+}
+
+.info-usuarios{
+width: 100%;
+height: 450px;
+background-color: #ff8d60ef;
+display: flex;
+justify-content: center;
+box-shadow: 5px 17px 44px 2px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 5px 17px 44px 2px rgba(0,0,0,0.73);
+    -moz-box-shadow: 5px 17px 44px 2px rgba(0,0,0,0.73);
+}
+
+
+.texto-usuarios {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    font-family: poiret;
+    font-size: 30px;
+}
