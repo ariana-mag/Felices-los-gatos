@@ -31,7 +31,7 @@ body {
     box-shadow: 5px 17px 44px 2px rgba(0,0,0,0.73);
     -webkit-box-shadow: 5px 17px 44px 2px rgba(0,0,0,0.73);
     -moz-box-shadow: 5px 17px 44px 2px rgba(0,0,0,0.73);
-     width: 240vh;
+     width: 100%;
 }
 
 .logo {
